@@ -213,7 +213,7 @@
         <div class="loading-text">loading...</div>
     </div>
 
-    <div class="version-number">V1.5.5 正式版</div>
+    <div class="version-number">V1.5.6 内测版</div>
 
     <div class="search-container">
         <h1 onclick="copyToClipboard()">学术文献搜索</h1>
@@ -319,7 +319,7 @@
         }
 
         document.addEventListener('keydown', function (e) {
-            if (e.key === 'F12' || (e.ctrlKey && e.shiftKey && (e.key === 'I' || e.key === 'C')) || (e.ctrlKey && (e.key === 'u' || e.key === 'U'))) {
+            if (e.key === 'F12' || (e.ctrlKey && (e.key === 's' || e.key === 'p' || e.shiftKey && (e.key === 'I' || e.key === 'C') || (e.key === 'u' || e.key === 'U')))) {
                 e.preventDefault();
                 window.location.href = 'error.html';
             }
